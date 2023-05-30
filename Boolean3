@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int A;
+    cout << "Введите число: ";
+    cin >> A;
+    if (A % 2 == 0) {
+        cout << "Число " << A << " является четным." << endl;
+    } else {
+        cout << "Число " << A << " является нечетным." << endl;
+    }
+    return 0;
+}
