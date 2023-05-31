@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float a;
+    cout << "Введите a" << endl;
+    cin >> a;
+    if (a < 0) {
+        cout << "Под корнем отрицательное число";
+    }
+    else {
+    double x = sqrt(2*a + sin(abs(3*a)));
+    double x1 = x/3.56;
+    cout << x1 << endl;
+    }
+    return 0;
+}
