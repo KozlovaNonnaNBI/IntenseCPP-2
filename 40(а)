@@ -1,0 +1,21 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main ()
+{ 
+    float a, b, c, m;
+    cout << "Введите a" << endl;
+    cin >> a;
+    cout << "Введите b" << endl;
+    cin >> b;
+    cout << "Введите c" << endl;
+    cin >> c;
+    m = a;
+    a = b;
+    b = c;
+    c = m;
+    cout << "a = " << a << endl;
+    cout << "b = " << b << endl;
+    cout << "c = " << c << endl;
+    return 0;
+}
