@@ -1,0 +1,27 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main ()
+{ 
+    float a, b, c, x, x1, x2, y, y1, y2;
+    cout << "Введите x" << endl;
+    cin >> x;
+    cout << "Введите x1" << endl;
+    cin >> x1;
+    cout << "Введите x2" << endl;
+    cin >> x2;
+    cout << "Введите y" << endl;
+    cin >> y;
+    cout << "Введите y1" << endl;
+    cin >> y1;
+    cout << "Введите y2" << endl;
+    cin >> y2;
+    a = sqrt(pow((x-x1),2)+pow((y-y1),2));
+    b = sqrt(pow((x-x2),2)+pow((y-y2),2));
+    c = sqrt(pow((x1-x2),2)+pow((y1-y2),2));
+    float p = a+b+c;
+    float S = sqrt(p*(p-a)*(p-b)*(p-c));
+    cout << "Периметр =" << p << endl;
+    cout << "Площадь =" << S << endl;
+    return 0;
+}
