@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main ()
+{ 
+    int a, b, c, h;
+    cout << "Введите a" << endl;
+    cin >> a;
+    cout << "Введите b" << endl;
+    cin >> b;
+    cout << "Введите c" << endl;
+    cin >> c;
+    cout << "Введите h" << endl;
+    cin >> h;
+    float V = a*b*c;
+    cout << V << endl;
+    float P = (a+b+c)*4;
+    float S = P*h;
+    cout << S << endl;
+    return 0;
+}
