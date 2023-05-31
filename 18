@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float R, h;
+    R = 6350;
+    cout << "Радиус = " << R << endl;
+    cout << "Введите высоту " << endl;
+    cin >> h;
+    float D = sqrt(h*(2*R + h));
+    cout << D << endl;
+    return 0;
+}
