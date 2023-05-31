@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float m, V;
+    cout << "Введите массу" << endl;
+    cin >> m;
+    cout << "Введите обьем" << endl;
+    cin >> V;
+    float p = m/V;
+    cout << p << endl;
+    return 0;
+}
