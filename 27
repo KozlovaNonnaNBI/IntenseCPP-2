@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float r, R, pi;
+    pi = 3.14;
+    cout << "Введите радиус малого кольца" << endl;
+    cin >> r;
+    cout << "Введите радиус большого" << endl;
+    cin >> R;
+    if ( r == 0  R == 0  r <0 || R < 0) {
+        cout << "Нет такого кольца" << endl;
+    }
+    else {
+    unsigned long P = (pi*R*R) - (pi*r*r);
+    cout << P << endl;
+    }
+    return 0;
+}
