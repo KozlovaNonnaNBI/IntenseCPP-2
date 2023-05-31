@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float a;
+    cout << "Введите a" << endl;
+    cin >> a;
+    float y = (12*pow(a,2)) + 7*a - 16;
+    cout << y << endl;
+    return 0;
+}
