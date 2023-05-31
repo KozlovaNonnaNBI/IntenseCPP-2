@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float x1, y1, x2, y2, otvet;
+    cout << "Введите кординату x1" << endl;
+    cin >> x1;
+    cout << "Введите кординату y1" << endl;
+    cin >> y1;
+    cout << "Введите кординату x2" << endl;
+    cin >> x2;
+    cout << "Введите кординату y2" << endl;
+    cin >> y2;
+    otvet = sqrt(pow((x2-x1) , 2) + pow((y2-y1) ,2));
+    cout << "Расстояние между точками = " << otvet << endl;
+    return 0;
+}
