@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float R;
+    cout << "Введите радиус" << endl;
+    cin >> R;
+    float D = 2*R;
+    cout << D << endl;
+    return 0;
+}
