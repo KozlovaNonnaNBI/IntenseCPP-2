@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main ()
+{ 
+    int a, b;
+    cout << "Введите a" << endl;
+    cin >> a;
+    cout << "Введите b" << endl;
+    cin >> b;
+    float P = 2*(a*b);
+    cout << P << endl;
+    float S = a*b;
+    cout << S << endl;
+    return 0;
+}
