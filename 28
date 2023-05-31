@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float a, b, c;
+    cout << "Введите сторону а" << endl;
+    cin >> a;
+    cout << "Введите сторону b" << endl;
+    cin >> b;
+    cout << "Введите сторону с" << endl;
+    cin >> c;
+    if ( a == 0  || b == 0  ||c == 0 a <0  b < 0 ||c < 0) {
+        cout << "Нет такого треугольника" << endl;
+    }
+    else {
+    unsigned long P = a + b + c;
+    cout << P << endl;
+    }
+    return 0;
+}
