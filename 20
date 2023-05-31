@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float R, pi;
+    pi = 3.14;
+    cout << "Введите радиус" << endl;
+    cin >> R;
+    float l = 2*pi*R;
+    float S = pi*R*R;
+    cout << l << endl;
+    cout << S << endl;  
+    return 0;
+}
