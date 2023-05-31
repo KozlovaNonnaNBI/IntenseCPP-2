@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float a;
+    cout << "Введите сторону" << endl;
+    cin >> a;
+    float P = 4*a;
+    cout << P << endl;
+    return 0;
+}
