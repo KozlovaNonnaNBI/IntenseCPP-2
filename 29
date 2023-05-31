@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float h, a, b;
+    cout << "Введите высоту" << endl;
+    cin >> h;
+    cout << "Введите основание a" << endl;
+    cin >> a;
+    cout << "Введите основание b" << endl;
+    cin >> b;
+    if ( a == 0  b == 0  a <0 || b < 0) {
+        cout << "Нет такого трапеции" << endl;
+    }
+    else {
+    unsigned long P = (h*(a+b))/2;
+    cout << P << endl;
+    }
+    return 0;
+}
