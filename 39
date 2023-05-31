@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main ()
+{ 
+    
+    int a, b, m;
+    cout << "Введите a" << endl;
+    cin >> a;
+    cout << "Введите b" << endl;
+    cin >> b;
+    m = a;
+    a = b;
+    b = m;
+    cout << "a=" << a << endl;
+    cout << "b=" << b << endl;
+    return 0;
+}
